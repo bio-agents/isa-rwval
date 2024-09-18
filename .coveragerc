@@ -1,0 +1,12 @@
+[run]
+source = isaagents
+omit =
+    /tests/*
+    /isaagents/errors/*
+
+[report]
+exclude_lines =
+    pragma: no cover
+    raise NotImplementedError
+    except ImportError
+    if __name__ == .__main__.:
